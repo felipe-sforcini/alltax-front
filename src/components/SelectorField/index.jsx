@@ -3,7 +3,7 @@ export default function SelectorField({ label, data = [], onChange }) {
         <div>
             <span>{label}</span>
             <select>
-                {data.map(function (item) {
+                {data.map((item) => {
                     return (
                         <option key={item.id} value={item.id}>
                             {item.name}

@@ -1,6 +1,6 @@
 import ApexChart from 'react-apexcharts'
 
-export default function Dashboard() {
+export default function Dashboard({ data }) {
 
     const options = {
         chart: {
@@ -27,7 +27,8 @@ export default function Dashboard() {
     const series =
         [{
             name: 'series-1',
-            data: [30, 40, 35, 50, 49, 60, 70, 91, 125]
+            // data: [30, 40, 35, 50, 49, 60, 70, 91, 125]
+            data: data
         }]
 
 
