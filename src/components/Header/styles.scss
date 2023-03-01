@@ -1,0 +1,23 @@
+.container-header {
+    background-color: #1f53ef;
+    padding: 2rem 3rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container-header__items {
+    display: flex;
+    flex-direction: row;
+
+    .container-header__item {
+        display: block;
+        margin-right: 2rem;
+        color: #fff;
+    }
+
+    .pointer {
+        cursor: pointer;
+    }
+}
