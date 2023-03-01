@@ -8,7 +8,7 @@ export const categories = [
         id: 2
     },
     {
-        name: "Medicine",
+        name: "Eletronics",
         id: 3
     }
 ]
@@ -43,6 +43,21 @@ export const products = [
         name: "Milk",
         categoryId: 2,
         id: 6
+    },
+    {
+        name: "TV",
+        categoryId: 3,
+        id: 7
+    },
+    {
+        name: "Games",
+        categoryId: 3,
+        id: 8
+    },
+    {
+        name: "Cellphone",
+        categoryId: 3,
+        id: 9
     }
 
 ]
@@ -123,6 +138,66 @@ export const brands = [
         productId: 5,
         id: 15
     },
+    {
+        name: "Parmalat",
+        productId: 6,
+        id: 16
+    },
+    {
+        name: "Batavo",
+        productId: 6,
+        id: 17
+    },
+    {
+        name: "Leitíssimo",
+        productId: 6,
+        id: 18
+    },
+    {
+        name: "Samsung",
+        productId: 7,
+        id: 19
+    },
+    {
+        name: "LG",
+        productId: 7,
+        id: 20
+    },
+    {
+        name: "Philco",
+        productId: 7,
+        id: 21
+    },
+    {
+        name: "Nintendo Switch",
+        productId: 8,
+        id: 22
+    },
+    {
+        name: "Sony Playstation 5",
+        productId: 8,
+        id: 23
+    },
+    {
+        name: "Xbox",
+        productId: 8,
+        id: 24
+    },
+    {
+        name: "iPhone",
+        productId: 9,
+        id: 25
+    },
+    {
+        name: "Motorola",
+        productId: 9,
+        id: 26
+    },
+    {
+        name: "ASUS",
+        productId: 9,
+        id: 27
+    }
 ]
 
 export const brandSales = [
@@ -185,5 +260,53 @@ export const brandSales = [
     {
         brandId: 15,
         sales: [120, 504, 135, 530, 124, 400, 200, 12, 67]
+    },
+    {
+        brandId: 16,
+        sales: [100, 322, 335, 786, 566, 4, 767, 120, 578]
+    },
+    {
+        brandId: 17,
+        sales: [67, 670, 35, 432, 459, 50, 230, 109, 200]
+    },
+    {
+        brandId: 18,
+        sales: [120, 504, 678, 530, 322, 400, 745, 12, 67]
+    },
+    {
+        brandId: 19,
+        sales: [1000, 3220, 3350, 7860, 5660, 40, 7670, 1200, 5780]
+    },
+    {
+        brandId: 20,
+        sales: [167, 1670, 315, 1432, 1459, 150, 2130, 1109, 1200]
+    },
+    {
+        brandId: 21,
+        sales: [120, 504, 678, 50, 322, 600, 245, 12, 67]
+    },
+    {
+        brandId: 22,
+        sales: [3000, 1220, 3350, 7860, 2660, 400, 2670, 1200, 5480]
+    },
+    {
+        brandId: 23,
+        sales: [167, 1670, 315, 132, 759, 150, 230, 1109, 120]
+    },
+    {
+        brandId: 24,
+        sales: [120, 8504, 6378, 550, 3242, 6500, 2457, 12, 670]
+    },
+    {
+        brandId: 25,
+        sales: [3000, 2220, 3350, 760, 2960, 1400, 670, 1200, 480]
+    },
+    {
+        brandId: 26,
+        sales: [1167, 4670, 315, 132, 759, 1350, 2330, 1109, 1120]
+    },
+    {
+        brandId: 27,
+        sales: [120, 8504, 6378, 550, 3242, 6500, 5657, 12, 666]
     }
 ]

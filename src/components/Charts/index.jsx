@@ -43,7 +43,7 @@ export default function Dashboard({ data }) {
             options={options}
             series={series}
             type="bar"
-            width={1200}
+            width={800}
         />
     )
 }
